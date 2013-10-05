@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<wicket:extend>
+    <table class="pure-table pure-table-horizontal" wicket:id="Table">
+        <thead>
+            <tr>
+                <th><wicket:message key="Done" /></th>
+                <th><wicket:message key="Title" /></th>
+                <th><wicket:message key="Description" /></th>
+                <th><wicket:message key="Edit" /></th>
+                <th><wicket:message key="Delete" /></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr wicket:id="Row">
+                <td>
+                    <a wicket:id="done" class="pure-button">&times;</a>
+                </td>
+                <td wicket:id="title"></td>
+                <td wicket:id="description"></td>
+                <td>
+                    <a wicket:id="edit" class="pure-button pure-button-secondary"><wicket:message key="Edit" /></a>
+                </td>
+                <td>
+                    <a wicket:id="delete" class="pure-button pure-button-warning"><wicket:message key="Delete" /></a>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="5" wicket:id="Navigator"></td>
+            </tr>
+        </tfoot>
+    </table>
+</wicket:extend>

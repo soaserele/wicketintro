@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-do List Application</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="css/todo.css">
+</head>
+<body class="pure-skin-todo">
+    <div class="pure-menu pure-menu-open pure-menu-horizontal">
+        <a href="#" class="pure-menu-heading"><wicket:message key="AppTitle" /></a>
+        <ul>
+            <li>
+                <a wicket:id="View"><wicket:message key="View todos" /></a>
+            </li>
+            <li>
+                <a wicket:id="Add"><wicket:message key="Add todo" /></a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <wicket:child />
+    </div>
+</body>
+</html>

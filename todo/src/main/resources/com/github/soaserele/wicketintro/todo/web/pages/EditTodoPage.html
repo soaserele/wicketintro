@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<wicket:extend>
+    <form class="pure-form pure-form-aligned" wicket:id="Form">
+        <fieldset>
+            <div class="pure-control-group">
+                <label><wicket:message key="Title"/></label>
+                <input wicket:id="title" type="text" wicket:message="placeholder:Title" />
+            </div>
+
+            <div class="pure-control-group">
+                <label><wicket:message key="Description"/></label>
+                <textarea wicket:id="description" wicket:message="placeholder:Description"></textarea>
+            </div>
+
+            <div class="pure-controls">
+                <label class="pure-checkbox">
+                    <input wicket:id="done" type="checkbox"> <wicket:message key="Done"/>
+                </label>
+
+                <button type="submit" class="pure-button pure-button-primary"><wicket:message key="Save"/></button>
+            </div>
+        </fieldset>
+    </form>
+</wicket:extend>

@@ -1,0 +1,8 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="Title">Title</entry>
+    <entry key="Description">Description</entry>
+    <entry key="Done">Task done</entry>
+    <entry key="Edit">Edit</entry>
+    <entry key="Delete">Delete</entry>
+</properties>

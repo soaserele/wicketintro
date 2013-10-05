@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.soaserele.wicketintro</groupId>
-    <artifactId>hello</artifactId>
+    <artifactId>todo</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
-    <name>hello</name>
-    <description>Simple Hello World Application</description>
+    <name>todo</name>
+    <description>To-do List Application</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
