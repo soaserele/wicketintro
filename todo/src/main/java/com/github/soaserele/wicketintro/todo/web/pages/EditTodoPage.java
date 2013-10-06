@@ -10,11 +10,6 @@ import org.apache.wicket.model.CompoundPropertyModel;
 
 import java.util.Date;
 
-/**
- * User: stanislaw
- * Date: 10/5/13
- * Time: 3:32 PM
- */
 public class EditTodoPage extends BasePage {
 
 

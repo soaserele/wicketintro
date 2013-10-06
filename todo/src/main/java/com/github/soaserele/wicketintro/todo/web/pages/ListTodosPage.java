@@ -20,11 +20,6 @@ import org.apache.wicket.model.Model;
 import java.util.Date;
 import java.util.Iterator;
 
-/**
- * User: stanislaw
- * Date: 10/5/13
- * Time: 3:32 PM
- */
 public class ListTodosPage extends BasePage {
 
 
